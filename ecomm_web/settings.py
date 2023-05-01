@@ -29,7 +29,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['ziauddinuniversityportal.herokuapp.com']
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -137,6 +136,6 @@ STATICFILES_DIRS = [
 MEDIA_ROOT= os.path.join(BASE_DIR, "media")
 MEDIA_URL="/media/"
 
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
