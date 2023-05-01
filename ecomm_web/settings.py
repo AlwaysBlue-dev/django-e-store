@@ -129,7 +129,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Add Manually
 
 STATICFILES_DIRS = [
-    BASE_DIR / "/tmp/build_8d960f00/static/",
+    BASE_DIR / "static/",
 ]
 
 
